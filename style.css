@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Figtree", sans-serif;
+  background-color: hsl(47, 88%, 63%);
+}
+
+.general {
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 20px;
+}
+.main {
+  background-color: white;
+  padding: 20px;
+  text-align: left;
+  max-width: 400px;
+  border-radius: 20px;
+}
+
+.design {
+  width: 100%;
+  border-radius: 10px;
+}
+.topic {
+  background-color: hsl(47, 88%, 63%);
+  width: fit-content;
+  text-indent: 3px;
+  color: black;
+  text-transform: capitalize;
+  font-size: 1.2em;
+  font-weight: 700;
+  text-align: left;
+  border-radius: 5px;
+  padding: 8px;
+}
+.date {
+  font-weight: 300;
+  margin: 0 0 10px;
+  font-size: 0.9em;
+  text-align: left;
+}
+.title:hover {
+  color: hsl(47, 88%, 63%);
+}
+.note {
+  text-align: left;
+  color: hsl(0, 0%, 50%);
+}
+.profile-section {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.profile-picture {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.profile {
+  font-size: 1em;
+  color: black;
+  font-weight: 800;
+  align-items: center;
+  justify-content: center;
+}
